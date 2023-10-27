@@ -1,14 +1,863 @@
 {
-  "global": {
-    "bg": {
-      "value": "#51ff08",
-      "type": "color"
+  "core colours": {
+    "brand": {
+      "haven blue": {
+        "type": "color",
+        "value": "#007cc2ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1159",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "pebble": {
+        "type": "color",
+        "value": "#c9c7c3ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1161",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "sand": {
+        "type": "color",
+        "value": "#faf9f7ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1162",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "desert storm": {
+        "type": "color",
+        "value": "#f2efebff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1163",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "haven cs": {
+        "type": "color",
+        "value": "#031545ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:100",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "text": {
+      "nero": {
+        "type": "color",
+        "value": "#1d1d1dff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:62",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "charcoal": {
+        "type": "color",
+        "value": "#404040ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:63",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "spanish grey": {
+        "type": "color",
+        "value": "#989696ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:64",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "ui": {
+      "electric blue": {
+        "type": "color",
+        "value": "#108fd7ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:65",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "rain grey": {
+        "type": "color",
+        "value": "#b7b7b7ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:66",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "purple navy": {
+        "type": "color",
+        "value": "#485373ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:91",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "semantic": {
+      "cornflower blue": {
+        "type": "color",
+        "value": "#6195e9ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:67",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "mustard": {
+        "type": "color",
+        "value": "#f6c344ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:68",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "indian red": {
+        "type": "color",
+        "value": "#df5858ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:69",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "sage": {
+        "type": "color",
+        "value": "#33c597ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:70",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "labels": {
+      "raspberry": {
+        "type": "color",
+        "value": "#d34242ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:85",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "crimson": {
+        "type": "color",
+        "value": "#d53e56ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:86",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "jonquil": {
+        "type": "color",
+        "value": "#f1cc2bff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:87",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "petrol": {
+        "type": "color",
+        "value": "#476f9aff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:88",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "turquoise": {
+        "type": "color",
+        "value": "#b6debbff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:89",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "dutch": {
+        "type": "color",
+        "value": "#e5d8b5ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:90",
+            "exportKey": "variables"
+          }
+        }
+      }
     }
   },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "global"
-    ]
+  "tokens": {
+    "background": {
+      "background primary": {
+        "type": "color",
+        "value": "{core colours.brand.sand}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1165",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "background tertiary": {
+        "type": "color",
+        "value": "{core colours.brand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:58",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "background secondary": {
+        "type": "color",
+        "value": "{core colours.brand.desert storm}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:59",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "core": {
+      "primary hh": {
+        "type": "color",
+        "value": "{core colours.brand.haven blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1166",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "stroke": {
+        "type": "color",
+        "value": "{core colours.brand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:57",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "primary cs": {
+        "type": "color",
+        "value": "{core colours.brand.haven cs}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:101",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "secondary": {
+        "type": "color",
+        "value": "{core colours.brand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:106",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "cta hh": {
+      "cta default": {
+        "type": "color",
+        "value": "{core colours.brand.haven blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:71",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta hover": {
+        "type": "color",
+        "value": "{core colours.ui.electric blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:78",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta active": {
+        "type": "color",
+        "value": "{core colours.brand.haven blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:79",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta disable": {
+        "type": "color",
+        "value": "{core colours.ui.rain grey}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:80",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "text": {
+      "text-title": {
+        "type": "color",
+        "value": "{core colours.text.nero}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:72",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "text-body": {
+        "type": "color",
+        "value": "{core colours.text.charcoal}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:73",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "text-body light": {
+        "type": "color",
+        "value": "{core colours.text.spanish grey}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:74",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "icons": {
+      "icons 1": {
+        "type": "color",
+        "value": "{core colours.brand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:75",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "icons 2": {
+        "type": "color",
+        "value": "{core colours.brand.haven blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:76",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "icons 3": {
+        "type": "color",
+        "value": "{core colours.text.nero}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:77",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "messages": {
+      "informative": {
+        "type": "color",
+        "value": "{core colours.semantic.cornflower blue}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:81",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "warning": {
+        "type": "color",
+        "value": "{core colours.semantic.mustard}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:82",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "error": {
+        "type": "color",
+        "value": "{core colours.semantic.indian red}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:83",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "confirmation": {
+        "type": "color",
+        "value": "{core colours.semantic.sage}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:84",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "labels": {
+      "sale": {
+        "type": "color",
+        "value": "{core colours.labels.raspberry}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:92",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "urgency": {
+        "type": "color",
+        "value": "{core colours.labels.crimson}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:93",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "promotion": {
+        "type": "color",
+        "value": "{core colours.labels.jonquil}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:94",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "reccommended": {
+        "type": "color",
+        "value": "{core colours.labels.petrol}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:95",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "new": {
+        "type": "color",
+        "value": "{core colours.labels.turquoise}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:96",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "generic": {
+        "type": "color",
+        "value": "{core colours.brand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:97",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "used": {
+        "type": "color",
+        "value": "{core colours.labels.dutch}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:98",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "finance": {
+        "type": "color",
+        "value": "{core colours.ui.purple navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:99",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "cta cs": {
+      "cta cs default": {
+        "type": "color",
+        "value": "{core colours.brand.haven cs}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:102",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta cs hover": {
+        "type": "color",
+        "value": "{core colours.ui.purple navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:103",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta cs active": {
+        "type": "color",
+        "value": "{core colours.brand.haven cs}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:104",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "cta cs disable": {
+        "type": "color",
+        "value": "{core colours.ui.rain grey}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:105",
+            "exportKey": "variables"
+          }
+        }
+      }
+    }
   }
 }
