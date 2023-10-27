@@ -1,22 +1,6 @@
 {
   "Core-token": {
     "brand-holiday": {
-      "haven blue": {
-        "type": "color",
-        "value": "#007cc2ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:1:1159",
-            "exportKey": "variables"
-          }
-        }
-      },
       "electric blue": {
         "type": "color",
         "value": "#108fd7ff",
@@ -32,9 +16,41 @@
             "exportKey": "variables"
           }
         }
+      },
+      "haven blue": {
+        "type": "color",
+        "value": "#007cc2ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1159",
+            "exportKey": "variables"
+          }
+        }
       }
     },
     "neutral": {
+      "spanish grey": {
+        "type": "color",
+        "value": "#989696ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:64",
+            "exportKey": "variables"
+          }
+        }
+      },
       "rain grey": {
         "type": "color",
         "value": "#b7b7b7ff",
@@ -79,22 +95,6 @@
               "ALL_SCOPES"
             ],
             "variableId": "VariableID:5:62",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "spanish grey": {
-        "type": "color",
-        "value": "#989696ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:64",
             "exportKey": "variables"
           }
         }
