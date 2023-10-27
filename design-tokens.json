@@ -34,6 +34,43 @@
         }
       }
     },
+
+"brand-caravan": {
+      "purple navy": {
+        "type": "color",
+        "value": "#485373ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:91",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "haven-dark": {
+        "type": "color",
+        "value": "#031545ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:100",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+
+    
     "neutral": {
       "spanish grey": {
         "type": "color",
@@ -100,40 +137,7 @@
         }
       }
     },
-    "brand-caravan": {
-      "purple navy": {
-        "type": "color",
-        "value": "#485373ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:91",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "haven-dark": {
-        "type": "color",
-        "value": "#031545ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:100",
-            "exportKey": "variables"
-          }
-        }
-      }
-    },
+    
     "semantic": {
       "cornflower blue": {
         "type": "color",
