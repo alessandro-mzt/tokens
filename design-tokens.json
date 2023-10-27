@@ -1,6 +1,6 @@
 {
-  "core colours": {
-    "brand": {
+  "Core-token": {
+    "brand-holiday": {
       "haven blue": {
         "type": "color",
         "value": "#007cc2ff",
@@ -17,9 +17,9 @@
           }
         }
       },
-      "pebble": {
+      "electric blue": {
         "type": "color",
-        "value": "#c9c7c3ff",
+        "value": "#108fd7ff",
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
@@ -28,64 +28,16 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "variableId": "VariableID:1:1161",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "sand": {
-        "type": "color",
-        "value": "#faf9f7ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:1:1162",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "desert storm": {
-        "type": "color",
-        "value": "#f2efebff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:1:1163",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "haven cs": {
-        "type": "color",
-        "value": "#031545ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:100",
+            "variableId": "VariableID:5:65",
             "exportKey": "variables"
           }
         }
       }
     },
-    "text": {
-      "nero": {
+    "neutral": {
+      "rain grey": {
         "type": "color",
-        "value": "#1d1d1dff",
+        "value": "#b7b7b7ff",
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
@@ -94,7 +46,7 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "variableId": "VariableID:5:62",
+            "variableId": "VariableID:5:66",
             "exportKey": "variables"
           }
         }
@@ -111,6 +63,22 @@
               "ALL_SCOPES"
             ],
             "variableId": "VariableID:5:63",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "nero": {
+        "type": "color",
+        "value": "#1d1d1dff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:62",
             "exportKey": "variables"
           }
         }
@@ -132,39 +100,7 @@
         }
       }
     },
-    "ui": {
-      "electric blue": {
-        "type": "color",
-        "value": "#108fd7ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:65",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "rain grey": {
-        "type": "color",
-        "value": "#b7b7b7ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:66",
-            "exportKey": "variables"
-          }
-        }
-      },
+    "brand-caravan": {
       "purple navy": {
         "type": "color",
         "value": "#485373ff",
@@ -177,6 +113,22 @@
               "ALL_SCOPES"
             ],
             "variableId": "VariableID:5:91",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "haven-dark": {
+        "type": "color",
+        "value": "#031545ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:100",
             "exportKey": "variables"
           }
         }
@@ -249,22 +201,6 @@
       }
     },
     "labels": {
-      "raspberry": {
-        "type": "color",
-        "value": "#d34242ff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Core Colours",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:85",
-            "exportKey": "variables"
-          }
-        }
-      },
       "crimson": {
         "type": "color",
         "value": "#d53e56ff",
@@ -329,6 +265,22 @@
           }
         }
       },
+      "raspberry": {
+        "type": "color",
+        "value": "#d34242ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:85",
+            "exportKey": "variables"
+          }
+        }
+      },
       "dutch": {
         "type": "color",
         "value": "#e5d8b5ff",
@@ -345,13 +297,63 @@
           }
         }
       }
+    },
+    "sand": {
+      "pebble": {
+        "type": "color",
+        "value": "#c9c7c3ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1161",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "sand": {
+        "type": "color",
+        "value": "#faf9f7ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1162",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "desert storm": {
+        "type": "color",
+        "value": "#f2efebff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "Core Colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:1:1163",
+            "exportKey": "variables"
+          }
+        }
+      }
     }
   },
-  "tokens": {
+  "System-token": {
     "background": {
-      "background primary": {
+      "primary": {
         "type": "color",
-        "value": "{core colours.brand.sand}",
+        "value": "{sand.sand}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -364,9 +366,9 @@
           }
         }
       },
-      "background tertiary": {
+      "tertiary": {
         "type": "color",
-        "value": "{core colours.brand.pebble}",
+        "value": "{sand.desert storm}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -379,9 +381,9 @@
           }
         }
       },
-      "background secondary": {
+      "secondary": {
         "type": "color",
-        "value": "{core colours.brand.desert storm}",
+        "value": "{sand.pebble}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -398,7 +400,7 @@
     "core": {
       "primary hh": {
         "type": "color",
-        "value": "{core colours.brand.haven blue}",
+        "value": "{brand-holiday.haven blue}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -411,24 +413,9 @@
           }
         }
       },
-      "stroke": {
-        "type": "color",
-        "value": "{core colours.brand.pebble}",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Haven Holiday",
-            "collection": "Tokens",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:5:57",
-            "exportKey": "variables"
-          }
-        }
-      },
       "primary cs": {
         "type": "color",
-        "value": "{core colours.brand.haven cs}",
+        "value": "{brand-caravan.haven-dark}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -441,9 +428,24 @@
           }
         }
       },
+      "stroke": {
+        "type": "color",
+        "value": "{sand.pebble}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Haven Holiday",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:5:57",
+            "exportKey": "variables"
+          }
+        }
+      },
       "secondary": {
         "type": "color",
-        "value": "{core colours.brand.pebble}",
+        "value": "{sand.pebble}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Haven Holiday",
@@ -859,5 +861,14 @@
         }
       }
     }
+  },
+  "Component-token": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Core-token",
+      "System-token",
+      "Component-token"
+    ]
   }
 }
